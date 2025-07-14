@@ -374,26 +374,31 @@ def cek_pinjam(id_user,nama):
 def kecerdasan():
     import google.generativeai as ai
     model = ai.GenerativeModel("gemini-pro")
-    rhs = 'AIzaSyBAce6MFOhpPVdbCIdJg-DnlMovFaniUDw'
-    ai.configure(api_key=rhs)
-    while True:
-        tanya = input("""Masukkan quit atau exit untuk kembali\n
-        Pertanyaan : """)
-        if cek(tanya) == False:
-            continue
-        elif tanya == "quit" or tanya == "exit":
-            hiasan("Terimaksih telah bertaya pada saya")
-            input("Tekan enter untuk kembali")
-            clear_terminal()
-            break
-        else:
-            jawab = model.generate_content(tanya)
-            print("Jawab : \n")
-            try:
-                print("\033[34m",jawab.text,"\n","\033[30m")
-            except ValueError:
-                print("Pertanyaan yang anda masukkan mengandung kata yang dilarang")
-            print("\033[34m","="*120,"\n\033[30m")
+    api_key = ""
+    if api_key != "":
+        ai.configure(api_key=api_key)
+        while True:
+            tanya = input("""Masukkan quit atau exit untuk kembali\n
+            Pertanyaan : """)
+            if cek(tanya) == False:
+                continue
+            elif tanya == "quit" or tanya == "exit":
+                hiasan("Terimaksih telah bertaya pada saya")
+                input("Tekan enter untuk kembali")
+                clear_terminal()
+                break
+            else:
+                jawab = model.generate_content(tanya)
+                print("Jawab : \n")
+                try:
+                    print("\033[34m",jawab.text,"\n","\033[30m")
+                except ValueError:
+                    print("Pertanyaan yang anda masukkan mengandung kata yang dilarang")
+                print("\033[34m","="*120,"\n\033[30m")
+    else:
+        print("Mohon masukkan api key anda terlebih dahulu")
+        input("Tekan enter untuk kembali")
+        clear_terminal()
             
 def help(id_user):
     print("""
