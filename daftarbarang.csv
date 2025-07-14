@@ -1,0 +1,17 @@
+Nama Alat,id alat,Jenis Alat,Fungsi,Harga Sewa per Hari (Rp)
+Drone Pertanian dan jasa,101,Teknologi,Pemantauan lahan dan penyemprotan,900000.0
+Mesin Penggiling Padi dan jasa,102,Mesin,Mengolah padi menjadi beras,500000.0
+Traktor Mini dan jasa,103,Berat,Membajak sawah dan kebun,300000.0
+Hand Tractor dan jasa,104,Mesin,Mengolah lahan,200000.0
+Cultivator,105,Mesin,Menggemburkan tanah,250000.0
+Mesin Penanam Padi,106,Mesin,Menanam bibit padi,500000.0
+Mesin Perontok Padi,107,Mesin,Memisahkan padi dari tangkai,200000.0
+Mesin Pompa Air,108,Mesin,Mengalirkan air untuk irigasi,100000.0
+Mesin Pemotong Rumput,109,Mesin,Memotong rumput dan tanaman liar,70000.0
+Alat Semprot Hama,110,Ringan,Menyemprotkan pestisida,30000.0
+Cangkul,111,Ringan,Menggali tanah dan membersihkan gulma,15000.0
+Garpu Tanah,112,Ringan,Menggemburkan tanah secara manual,20000.0
+Sabit,113,Ringan,Memotong rumput atau padi,10000.0
+Mitoma,115,Pemain,Timnas Jepang,10000.0
+Kucing Oren,116,Hewan,Pengusir tikus,5000.0
+Kucing Hitam,117,Hewan,Pengusir dedemit dan jendral,12000.0

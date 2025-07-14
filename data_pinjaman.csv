@@ -1,0 +1,12 @@
+id peminjaman,id user,id alat,nama alat,jangka waktu,jaminan,status
+1,3,111,Cangkul,14,20000,dikembalikan
+2,3,112,Garpu Tanah,14,28000,ditolak
+3,4,112,Garpu Tanah,12,24000,dipinjam
+4,5,112,Garpu Tanah,14,28000,dikembalikan
+5,5,112,Garpu Tanah,14,28000,ditolak
+6,3,112,Garpu Tanah,14,28000,ditolak
+7,3,113,Sabit,14,14000,dikembalikan
+8,5,110,Alat Semprot Hama,14,42000,dipinjam
+9,3,117,Kucing Hitam,20,24000,dikembalikan
+10,3,118,Laptop,14,33600,proses verivikasi
+11,6,101,Drone Pertanian dan jasa,14,1260000,ditolak
